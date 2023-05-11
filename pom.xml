@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>test-app</artifactId>
+	<artifactId>mule-cicd</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 	<name>mule-cicd</name>
@@ -36,7 +36,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>${mule.username}</username>
 						<password>${mule.password}</password>
-						<applicationName>mule-cicd</applicationName>
+						<applicationName>dev-test-mule-cicd</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
